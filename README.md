@@ -1,5 +1,5 @@
 # VScode-basic-setting
-**Allow VScode to run C/C# project with code runner.**
+## **Allow VScode to run C/C# project with code runner.**
 
 # **1.安裝Mingw**  
 ## 前往 https://zh-tw.osdn.net/projects/mingw/releases/68260 選擇 mingw-get-setup.exe
