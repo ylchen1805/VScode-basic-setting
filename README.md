@@ -16,7 +16,7 @@
 3. 選左側 All Packages，找到 mingw32-gdb-bin 點取左方窗格，選擇 Mark for Installation  
 ![image](https://user-images.githubusercontent.com/103346268/162608115-65be06fb-6291-4108-bd45-f92ba550a5d9.png)
 
-4. 選擇 Installation --> Apply Change
+4. 選擇 Installation --> Apply Change  
 ![image](https://user-images.githubusercontent.com/103346268/162608137-4f257a73-6497-4a8e-88e3-c9f61a650f54.png)
 
 5. 點選Apply  
@@ -25,7 +25,7 @@
 3. 前往本機->右鍵->內容->進階系統設定  
   ![image](https://user-images.githubusercontent.com/103346268/162607480-3f6988bc-45a0-4dda-8ac4-c5e7cba79f4d.png)
   
-4. 環境變數->系統變數->PATH->編輯->新增
+4. 環境變數->系統變數->PATH->編輯->新增  
   ![image](https://user-images.githubusercontent.com/103346268/162607580-47f3502f-a514-40db-83a2-b4955fbac5c0.png)
   
 4. 新增 C:\MinGW\bin 點選確定  
@@ -43,16 +43,16 @@
 3. 更改Code Runner設定  
     i. 點選Code Rnner
 ![image](https://user-images.githubusercontent.com/103346268/162608530-3dc370a9-7f14-4d91-a545-87fad0f30836.png)  
- ii. 設定(齒輪圖案)->擴充設定
+    ii. 設定(齒輪圖案)->擴充設定
  ![image](https://user-images.githubusercontent.com/103346268/162608904-b9f2b085-3419-47d3-8a8a-2bdc6a8c1713.png)
 
-iii. 找到ExecutorMap->點下方 在settings.jason內編輯
+    iii. 找到ExecutorMap->點下方 在settings.jason內編輯
 ![image](https://user-images.githubusercontent.com/103346268/162608970-5190321f-ed9e-4314-9ad1-e07cb1dfcee5.png)
 
-iiii. 找到 "code-runner.executorMap"  
+    iiii. 找到 "code-runner.executorMap"  
 ![image](https://user-images.githubusercontent.com/103346268/162609817-43462ce6-d46d-4b2f-88fd-1c832b4060fe.png)
 
-iv. 將"cpp"後內容刪掉改為
+    iv. 將"cpp"後內容刪掉改為
 ```
  "cpp": "cd $dir && g++ -std=c++14 *.cpp  -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
 ```
